@@ -1,15 +1,22 @@
 const greet = function(){
     return 'Haydo!';
 };
-
-let salutation = greet();
+var salutation = greet();
 console.log(greet());
 
 function echo(sound){
-    return sound;
-}
+    return 'wowowow';
+};
+console.log(echo());
 
-function greet2 (name){
+function greet (name) {
+    return 'Hello' + name + '!';
+};
+
+
+
+
+/*function greet2 (name){
     return 'Hello' + name +'!';
 }
 
@@ -34,6 +41,6 @@ var double = function(name) {
 };
 var x = double('Roy'); {
     console.log(x);
-};
+};*/
 
 
