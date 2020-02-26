@@ -2,16 +2,19 @@ const greet = function(){
     return 'Haydo!';
 };
 var salutation = greet();
-console.log(greet());
+console.log(greet(salutation));
 
 function echo(sound){
     return 'wowowow';
 };
 console.log(echo());
 
-function greet (name) {
-    return 'Hello' + name + '!';
+function greet2(name) {
+    console.log('Hello' + " " + name + " " + '!');
 };
+greet2('Erika');
+
+
 
 
 
