@@ -66,15 +66,15 @@ if (isAnswerRight) {
 
 isAnswerRight ? console.log('The answer is wrong') : console.log('The answer is right');
 
-function tellFortune (numbOfChildren, partnerName, geographLocation, jobTitle) {
-    numbOfChildren = n;
-    partnerName = z;
-    geographLocation = y;
-    jobTitle = x;
+function tellFortune(numbOfChildren, partnerName, geographLocation, jobTitle) {
+    var fortuneLuck = 'You will be a' + jobTitle + 'in' + geographLocation + ',and married to' + partnerName + 'with' + numbOfChildren + 'kids.';
+    console.log (fortuneLuck);
+};  
+tellFortune('Dentist', 'London', 'Derek', 2);
+tellFortune('Web Designer', 'Italy', 'Christopher', 3);
+tellFortune('Barrister', 'France', 'Mary', 1);
 
 
-    return 'You will be a chef in London'
-}
 
 
 
