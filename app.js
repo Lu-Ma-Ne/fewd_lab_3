@@ -66,7 +66,7 @@ if (isAnswerRight) {
 
 isAnswerRight ? console.log('The answer is wrong') : console.log('The answer is right');
 
-function tellFortune(numbOfChildren, partnerName, geographLocation, jobTitle) {
+function tellFortune(jobTitle, geographLocation, partnerName, numbOfChildren) {
     var fortuneLuck = 'You will be a' + jobTitle + 'in' + geographLocation + ',and married to' + partnerName + 'with' + numbOfChildren + 'kids.';
     console.log (fortuneLuck);
 };  
