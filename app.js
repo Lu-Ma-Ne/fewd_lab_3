@@ -66,7 +66,15 @@ if (isAnswerRight) {
 
 isAnswerRight ? console.log('The answer is wrong') : console.log('The answer is right');
 
+function tellFortune (numbOfChildren, partnerName, geographLocation, jobTitle) {
+    numbOfChildren = n;
+    partnerName = z;
+    geographLocation = y;
+    jobTitle = x;
 
+
+    return 'You will be a chef in London'
+}
 
 
 
